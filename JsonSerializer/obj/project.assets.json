@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\JsonSerializer.csproj",
-      "projectName": "JsonSerializer",
-      "projectPath": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\JsonSerializer.csproj",
+      "projectUniqueName": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\ExoJsonSerializer.csproj",
+      "projectName": "ExoJsonSerializer",
+      "projectPath": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\ExoJsonSerializer.csproj",
       "packagesPath": "C:\\Users\\jerom\\.nuget\\packages\\",
       "outputPath": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\obj\\",
       "projectStyle": "PackageReference",

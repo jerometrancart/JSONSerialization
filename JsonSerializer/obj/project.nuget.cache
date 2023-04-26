@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b0JENn7o1wgUbC4kDcsLN9it9WxAIvA+hOUlGxy+75DsCSJD+lu6F3VW/MGDpoNx3MLSCl0ooYZ+C8tzpC1aNQ==",
+  "dgSpecHash": "pTSTgOc7AoXn4wwlafvb7dQQ71CNbabCQHxEW5q6Lx+ZkAiPcsIuIY/WtY6FG1G8x3c4SGviFYtYSc1FNAPHEw==",
   "success": true,
-  "projectFilePath": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\JsonSerializer.csproj",
+  "projectFilePath": "C:\\wamp64\\www\\.net\\Section_8\\JSONSerialization\\JsonSerializer\\ExoJsonSerializer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

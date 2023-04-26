@@ -25,7 +25,7 @@ var json = JsonSerializer.Serialize(youtubeur, new JsonSerializerOptions
     ///INDENTATION
     WriteIndented = true,
     ///SENSIBILITE A LA CASSE
-    PropertyNameCaseInsensitive = false,
+    PropertyNameCaseInsensitive = true,
     ///PROFONDEUR, NE PAS TOUCHER SAUF SI AU DELA DE 64
     /// MaxDepth = 2,
     ///GESTION DES REF CYCLIQUES (A GERER A LA RECEPTION)
@@ -34,5 +34,42 @@ var json = JsonSerializer.Serialize(youtubeur, new JsonSerializerOptions
     Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
 });
 
-System.Console.WriteLine(json);
+/// System.Console.WriteLine(json);
 
+///ATTENTION AUX COLLECTIONS!
+string jsonData = @"
+[
+    {
+        ""titre"": ""Harry Potter, I : Harry Potter à l'école des sorciers"",
+        ""auteur"": ""J.K. Rowling"",
+        ""nbPages"": 320,
+        ""ISBN"": ""2070584623""
+    },
+    {
+        ""titre"": ""Harry Potter, II : Harry Potter et la Chambre des Secrets"",
+        ""auteur"": ""J.K. Rowling"",
+        ""nbPages"": 368,
+        ""ISBN"": ""207058464X""
+    },
+    {
+        ""titre"": ""Harry Potter, III : Harry Potter et le prisonnier d'Azkaban"",
+        ""auteur"": ""J.K. Rowling"",
+        ""nbPages"": 448,
+        ""ISBN"": ""2070584925""
+    }
+]
+";
+ 
+List<Livre>? livres = JsonSerializer.Deserialize<List<Livre>>(jsonData, new JsonSerializerOptions
+{
+    ///ATTENTION A LA CASSE POUR LES PROPS
+    PropertyNameCaseInsensitive = true
+});
+
+if(livres is not null)
+{
+    foreach(var livre in livres)
+    {
+        System.Console.WriteLine($"Ce livre s'appelle {livre.Titre}, il a été écrit par {livre.Auteur} et contient {livre.NbPages} pages, son numéro de série est le {livre.ISBN}.");
+    }
+}
