@@ -1,0 +1,15 @@
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\bin\Debug\net7.0\JsonSerializer.exe
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\bin\Debug\net7.0\JsonSerializer.deps.json
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\bin\Debug\net7.0\JsonSerializer.runtimeconfig.json
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\bin\Debug\net7.0\JsonSerializer.dll
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\bin\Debug\net7.0\JsonSerializer.pdb
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.csproj.AssemblyReference.cache
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.AssemblyInfoInputs.cache
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.AssemblyInfo.cs
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.csproj.CoreCompileInputs.cache
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.dll
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\refint\JsonSerializer.dll
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.pdb
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\JsonSerializer.genruntimeconfig.cache
+C:\wamp64\www\.net\Section_8\JSONSerialization\JsonSerializer\obj\Debug\net7.0\ref\JsonSerializer.dll
